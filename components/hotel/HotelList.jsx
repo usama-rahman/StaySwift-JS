@@ -7,9 +7,9 @@ const HotelList = async () => {
   return (
     <div className="col-span-9">
       <div className="space-y-4">
-        {allHotels.map((hotel) => {
-          return <HotelCard key={hotel.id} hotelInfo={hotel} />;
-        })}
+        {allHotels.map((hotel) => (
+          <HotelCard key={hotel.id} hotelInfo={hotel} />
+        ))}
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
-// import HotelRating from "./HotelRating";
-// import HotelReviewNumber from "./HotelReviewNumber";
+import HotelRating from "./HotelRating";
+import HotelReviewNumber from "./HotelReviewNumber";
 import Link from "next/link";
 
 const HotelSummaryInfo = ({ fromListPage, info }) => {
@@ -13,8 +13,8 @@ const HotelSummaryInfo = ({ fromListPage, info }) => {
         </h2>
         <p>📍 {info?.city}</p>
         <div className="flex gap-2 items-center my-4">
-          {/* <HotelRating id={info?.id} /> */}
-          {/* <HotelReviewNumber id={info?.id} /> */}
+          <HotelRating id={info?.id} />
+          <HotelReviewNumber id={info?.id} />
         </div>
         <div>
           <span className="bg-yellow-300 p-1 rounded-md">
