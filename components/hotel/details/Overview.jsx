@@ -1,4 +1,4 @@
-const Overview = ({ overview }) => {
+const Overview = ({overview}) => {
   return (
     <section>
       <div className="container py-8">
